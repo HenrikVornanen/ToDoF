@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Assets\favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\add_button.png" />
+    <None Remove="Assets\close_button.png" />
+    <None Remove="Assets\Darkstairs.png" />
+    <None Remove="Assets\favicon.ico" />
+    <None Remove="Assets\fullscreen_button.png" />
+    <None Remove="Assets\minimize_button.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\favicon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\add_button.png" />
+    <Resource Include="Assets\close_button.png" />
+    <Resource Include="Assets\Darkstairs.png" />
+    <Resource Include="Assets\favicon.ico" />
+    <Resource Include="Assets\fullscreen_button.png" />
+    <Resource Include="Assets\minimize_button.png" />
+  </ItemGroup>
+
+</Project>

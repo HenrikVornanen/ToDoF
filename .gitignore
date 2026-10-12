@@ -1,0 +1,11 @@
+# Visual Studio
+.vs/
+**/bin/
+**/obj/
+*.csproj.user
+
+# Copilot
+**/CopilotIndices/
+
+# Personal task data
+todos.json
